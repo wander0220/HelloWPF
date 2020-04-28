@@ -29,7 +29,8 @@ namespace HelloWPF
         //버튼 코드에서 Button_Click 연결된 부분도 지워줘야함.
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("한국의 베토벤 원필군의 생일(4.28)입니다..", "공교롭게도 오늘",
+                   MessageBoxButton.YesNo, MessageBoxImage.Question);
         }
     }
 }

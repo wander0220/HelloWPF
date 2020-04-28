@@ -24,7 +24,9 @@ namespace HelloWPF
         {
             InitializeComponent();
         }
-
+        
+        //더블클릭 잘못해서 없앨려고 이 코드만 지우면 에러남
+        //버튼 코드에서 Button_Click 연결된 부분도 지워줘야함.
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
